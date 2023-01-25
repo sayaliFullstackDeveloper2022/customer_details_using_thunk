@@ -2,7 +2,7 @@
   "name": "thunk-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sayaliFullstackDeveloper2022.github.io/redux_cart_deply.github.io",
+  "homepage": "http://sayaliFullstackDeveloper2022.github.io/customer_details_using_thunk",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
