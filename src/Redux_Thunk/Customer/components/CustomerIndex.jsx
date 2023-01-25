@@ -6,7 +6,7 @@ import DisplayCustomer from './DisplayCustomer';
 
 const CustomerIndex = () => {
     return (<>
-        <div className="container-fluid ">
+        <div className="container ">
             <div className="row ">
                 <div className="d-flex justify-content-center align-items-center bg-primary">
                     <NavLink className="btn rounded-0 border-0 fw-bold fs-4 border-end border-dark" exact="true" to="/">HOME</NavLink>
@@ -23,7 +23,7 @@ const CustomerIndex = () => {
             <Route exact="true" path="/display" element={<DisplayCustomer />} />
         </Routes> 
 
-        <div className="container-fluid text-center">
+        <div className="container text-center">
             <footer className="footer text-center ">
                 <span className="text-muted">All Rights Reserved 2023 @SRG</span>
             </footer>

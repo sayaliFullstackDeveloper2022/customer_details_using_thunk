@@ -60,10 +60,10 @@ const DisplayCustomer = ({ userData, fetchCustomers }) => {
     }, []);
 
     return <>
-        <div className="container-fluid bg-light">
+        <div className="container">
             <div className=" row py-1">
-                <div className="m-auto">
-                    {loading && <h2>Loading....</h2>}
+                <div className="m-auto text-center">
+                    {loading && <h4>Loading....</h4>}
                     {error && !loading && <h2>{error}</h2>}
 
                     <div className="ag-theme-alpine mx-auto" style={{ height: '80vh', width: "160vh" }} >
